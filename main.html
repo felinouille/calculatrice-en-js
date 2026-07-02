@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felicia calculatrice
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scrypt.js" defer></script>
+</head>
+<body>
+    <div class="containeur"> 
+            <input type="text" class="screen" readonly> <br>
+            <button onclick="addNumb('1')">1</button>
+            <button onclick="addNumb('2')">2</button>
+            <button onclick="addNumb('3')">3</button>
+            <button onclick="addOperator('+')" class="operator">+</button> <br>
+            <button onclick="addNumb('4')">4</button>
+            <button onclick="addNumb('5')">5</button>
+            <button onclick="addNumb('6')">6</button>
+            <button onclick="addOperator('-')" class="operator">-</button> <br>
+            <button onclick="addNumb('7')">7</button>
+            <button onclick="addNumb('8')">8</button>
+            <button onclick="addNumb('9')">9</button>
+            <button onclick="addOperator('/')" class="operator">/</button> <br>
+            <button onclick="addNumb('0')">0</button>
+            <button onclick="addNumb('.')">.</button>
+            <button onclick="equals('=')">=</button>
+            <button onclick="addOperator('*')" class="operator">*</button><br>
+            <button onclick="clearScreen()">clear</button>
+    </div>
+</body>
+</html>
